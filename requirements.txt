@@ -1,0 +1,10 @@
+# Day 0 手动安装的核心依赖（来自 day0.md）
+# 安装命令：pip install -r requirements.txt
+
+pandas>=3.0
+numpy>=2.0
+matplotlib>=3.10
+jupyter>=1.0
+akshare>=1.18
+yfinance>=1.6
+pyarrow>=25.0        # 可选：parquet 读写引擎（pandas.to_parquet 需要）
